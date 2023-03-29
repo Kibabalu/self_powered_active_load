@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "3362P-1-102LF")(type "KiCad")(uri "${KICAD7_USER_SYMBOL_DIR}/3362P-1-102LF.kicad_sym")(options "")(descr ""))
+  (lib (name "3590S-2-103L")(type "KiCad")(uri "${KICAD7_USER_SYMBOL_DIR}/3590S-2-103L.kicad_sym")(options "")(descr ""))
+  (lib (name "5uH_LISN-eagle-import")(type "Legacy")(uri "${KICAD7_USER_SYMBOL_DIR}/5uH_LISN-eagle-import.lib")(options " pwr_sym_only")(descr ""))
+)
