@@ -8,7 +8,7 @@
     (title "Self Powered Active Load")
     (date "2023-03-26")
     (rev "A")
-    (comment 1 "Dr. Frank Kirschbaum, Hohenheimer Straße 71A, 70184 Suttgart")
+    (company "Dr. Frank Kirschbaum, Hohenheimer Straße 71A, 70184 Suttgart")
     (comment 4 "Original Design from Joel Setton: Precision active load operates as low as 2V, EDN, 2005")
   )
 
@@ -5362,7 +5362,7 @@
   (symbol (lib_id "Device:C") (at 106.045 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e91d0e9-8aa2-4c74-a6dc-9068233305f2)
-    (property "Reference" "C8" (at 106.68 24.749 0)
+    (property "Reference" "C5" (at 106.68 24.749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 26.67 0)
@@ -5379,7 +5379,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "C8") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -5388,7 +5388,7 @@
   (symbol (lib_id "power:GNDA") (at 243.205 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e9c2cd1-ed8b-44d2-8e7a-48d2859ac889)
-    (property "Reference" "#PWR027" (at 243.205 144.145 0)
+    (property "Reference" "#PWR029" (at 243.205 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 243.205 141.9305 0)
@@ -5404,7 +5404,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -5439,7 +5439,7 @@
   (symbol (lib_id "power:GNDA") (at 227.965 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 332005ea-ee80-4139-8146-ef6444d52901)
-    (property "Reference" "#PWR026" (at 227.965 144.145 0)
+    (property "Reference" "#PWR028" (at 227.965 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 227.965 141.9305 0)
@@ -5455,7 +5455,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -5464,7 +5464,7 @@
   (symbol (lib_id "power:+1V2") (at 106.045 20.955 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 332ee1f5-c30c-45c1-89e1-0ddda870c86b)
-    (property "Reference" "#PWR031" (at 106.045 24.765 0)
+    (property "Reference" "#PWR017" (at 106.045 24.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 106.045 17.78 0)
@@ -5480,7 +5480,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -5515,7 +5515,7 @@
   (symbol (lib_id "power:GNDA") (at 113.665 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 361d52b6-aef1-4753-b9ce-b61c2fba864f)
-    (property "Reference" "#PWR019" (at 113.665 144.78 0)
+    (property "Reference" "#PWR021" (at 113.665 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 113.665 142.5655 0)
@@ -5531,7 +5531,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5540,7 +5540,7 @@
   (symbol (lib_id "power:GNDA") (at 165.1 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38ed3257-3785-4aba-bbaa-deba8dd2d18c)
-    (property "Reference" "#PWR022" (at 165.1 144.145 0)
+    (property "Reference" "#PWR024" (at 165.1 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 165.1 141.9305 0)
@@ -5556,7 +5556,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -5565,7 +5565,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 81.915 115.57 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39de5ff7-14ef-4968-906c-abc3be0f9a64)
-    (property "Reference" "TP10" (at 88.265 116.205 90)
+    (property "Reference" "TP2" (at 88.265 116.205 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 88.265 113.665 90)
@@ -5581,7 +5581,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "TP10") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -5590,7 +5590,7 @@
   (symbol (lib_id "Device:C") (at 98.425 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a447860-8bdf-43d7-b6eb-9b9a9aee7e56)
-    (property "Reference" "C5" (at 90.805 28.559 0)
+    (property "Reference" "C4" (at 90.805 28.559 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 90.805 30.48 0)
@@ -5607,7 +5607,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "C5") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -5667,7 +5667,7 @@
   (symbol (lib_id "power:VDC") (at 141.605 165.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40a9005a-4ba9-45e8-a91f-76786208c278)
-    (property "Reference" "#PWR020" (at 141.605 168.275 0)
+    (property "Reference" "#PWR022" (at 141.605 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDC" (at 141.605 162.2331 0)
@@ -5683,7 +5683,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5952,7 +5952,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 179.705 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49c6d56d-8cf7-4d06-8fb0-56f07f6f117a)
-    (property "Reference" "TP2" (at 185.42 85.725 90)
+    (property "Reference" "TP5" (at 185.42 85.725 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 185.42 88.265 90)
@@ -5968,7 +5968,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "TP2") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -6165,7 +6165,7 @@
   (symbol (lib_id "power:GNDA") (at 107.315 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54e21369-0ee9-42e3-ac6d-e02a5a0a4509)
-    (property "Reference" "#PWR018" (at 107.315 144.78 0)
+    (property "Reference" "#PWR020" (at 107.315 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 107.315 142.5655 0)
@@ -6181,7 +6181,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -6190,7 +6190,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 165.1 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54ec9eb3-a2ed-476c-8307-083a467b168b)
-    (property "Reference" "TP1" (at 167.64 65.913 0)
+    (property "Reference" "TP4" (at 167.64 65.913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 167.64 68.453 0)
@@ -6206,7 +6206,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "TP1") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -6329,7 +6329,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 217.805 86.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c8efa11-3a23-4635-9178-c52c87518668)
-    (property "Reference" "TP6" (at 217.17 92.71 90)
+    (property "Reference" "TP8" (at 217.17 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 219.71 92.71 90)
@@ -6345,7 +6345,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "TP6") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -6410,7 +6410,7 @@
   (symbol (lib_id "power:VDC") (at 251.46 39.37 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64cc36aa-5e38-4e62-8992-0de2946508b1)
-    (property "Reference" "#PWR028" (at 248.92 39.37 0)
+    (property "Reference" "#PWR030" (at 248.92 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDC" (at 255.27 39.6868 90)
@@ -6426,7 +6426,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -6435,7 +6435,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 99.695 133.985 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65f88882-c6b0-4a36-9501-fbb15674c6da)
-    (property "Reference" "TP8" (at 93.345 133.35 90)
+    (property "Reference" "TP3" (at 93.345 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 93.345 135.89 90)
@@ -6451,7 +6451,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "TP8") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -6504,7 +6504,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 56.515 133.985 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dfef6dd-8a44-41fa-bdf5-e123d861f0ea)
-    (property "Reference" "TP9" (at 50.165 133.35 90)
+    (property "Reference" "TP1" (at 50.165 133.35 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 50.165 135.89 90)
@@ -6520,7 +6520,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "TP9") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -6586,7 +6586,7 @@
   (symbol (lib_id "power:GNDA") (at 179.705 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74a019c4-cc25-45a1-b7cd-9bd69df77d97)
-    (property "Reference" "#PWR023" (at 179.705 144.145 0)
+    (property "Reference" "#PWR025" (at 179.705 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 179.705 141.9305 0)
@@ -6602,7 +6602,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -6636,7 +6636,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 233.045 96.52 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c2efbe1-f591-43d8-bd37-9c22163a3cd8)
-    (property "Reference" "TP7" (at 232.41 102.87 90)
+    (property "Reference" "TP9" (at 232.41 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 234.95 102.87 90)
@@ -6652,7 +6652,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "TP7") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -6833,7 +6833,7 @@
   (symbol (lib_id "Device:C") (at 173.99 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8be32f88-4e4e-4db1-86e8-7bdac0b179b5)
-    (property "Reference" "C6" (at 174.244 97.282 90)
+    (property "Reference" "C7" (at 174.244 97.282 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 173.99 95.25 90)
@@ -6850,7 +6850,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -7153,7 +7153,7 @@
   (symbol (lib_id "power:GNDA") (at 141.605 189.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1a01047-697f-4339-9946-408b3bbde9b0)
-    (property "Reference" "#PWR021" (at 141.605 196.215 0)
+    (property "Reference" "#PWR023" (at 141.605 196.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 141.605 194.183 0)
@@ -7169,7 +7169,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -7248,7 +7248,7 @@
   (symbol (lib_id "power:GNDA") (at 197.485 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a33c31d2-1676-4843-9c97-eab20f5ae19e)
-    (property "Reference" "#PWR024" (at 197.485 144.145 0)
+    (property "Reference" "#PWR026" (at 197.485 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 197.485 141.9305 0)
@@ -7264,7 +7264,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -7298,7 +7298,7 @@
   (symbol (lib_id "power:GNDA") (at 106.045 37.465 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6ccc859-9723-4046-8b74-1e0459b7b9ae)
-    (property "Reference" "#PWR032" (at 106.045 43.815 0)
+    (property "Reference" "#PWR018" (at 106.045 43.815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 106.045 41.783 0)
@@ -7314,7 +7314,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -7323,7 +7323,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 256.54 100.965 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8b5af5c-d3c2-497f-9fc2-c5d272a1ee53)
-    (property "Reference" "TP3" (at 258.445 97.028 0)
+    (property "Reference" "TP10" (at 258.445 97.028 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 258.445 99.568 0)
@@ -7339,7 +7339,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "TP3") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
     )
@@ -7487,7 +7487,7 @@
   (symbol (lib_id "power:GNDA") (at 266.065 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1966ed5-96ae-4d88-98af-6881ddd68eb3)
-    (property "Reference" "#PWR029" (at 266.065 144.145 0)
+    (property "Reference" "#PWR031" (at 266.065 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 266.065 141.9305 0)
@@ -7503,7 +7503,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -7537,7 +7537,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 202.565 76.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7032ba5-14fb-4b14-8adc-9a9d70574ce4)
-    (property "Reference" "TP5" (at 201.93 82.55 90)
+    (property "Reference" "TP7" (at 201.93 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 204.47 82.55 90)
@@ -7553,7 +7553,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "TP5") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -7805,7 +7805,7 @@
   (symbol (lib_id "power:+1V2") (at 107.315 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ceda5229-bb98-4ce0-890f-6ec5256b24ee)
-    (property "Reference" "#PWR017" (at 107.315 69.215 0)
+    (property "Reference" "#PWR019" (at 107.315 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V2" (at 107.315 62.23 0)
@@ -7821,7 +7821,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -7900,7 +7900,7 @@
   (symbol (lib_id "Device:C") (at 277.495 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d36c4010-b641-4a3a-afc7-251b8820928d)
-    (property "Reference" "C7" (at 280.416 130.1663 0)
+    (property "Reference" "C8" (at 280.416 130.1663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 280.416 132.0873 0)
@@ -7917,7 +7917,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -7926,7 +7926,7 @@
   (symbol (lib_id "power:GNDA") (at 277.495 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d425be71-d4f4-4933-b1d9-8899bfc44e6a)
-    (property "Reference" "#PWR030" (at 277.495 144.145 0)
+    (property "Reference" "#PWR032" (at 277.495 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 277.495 141.9305 0)
@@ -7942,7 +7942,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -8168,7 +8168,7 @@
   (symbol (lib_id "Capacitor_AKL:CP_Generic") (at 133.985 178.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dcd29d75-b5ea-4414-93c4-0c69e1935105)
-    (property "Reference" "C4" (at 126.365 176.514 0)
+    (property "Reference" "C6" (at 126.365 176.514 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 126.365 178.435 0)
@@ -8194,7 +8194,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -8203,7 +8203,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 187.325 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2097952-4805-419a-a097-2a35c08dc5b8)
-    (property "Reference" "TP4" (at 186.69 72.39 90)
+    (property "Reference" "TP6" (at 186.69 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 189.23 72.39 90)
@@ -8219,7 +8219,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "TP4") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -8335,7 +8335,7 @@
   (symbol (lib_id "power:GNDA") (at 212.725 137.795 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffe276b4-f4c5-4021-b270-d7a718eef043)
-    (property "Reference" "#PWR025" (at 212.725 144.145 0)
+    (property "Reference" "#PWR027" (at 212.725 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 213.995 141.9305 0)
@@ -8351,7 +8351,7 @@
     (instances
       (project "self_powered_active_load"
         (path "/fba86916-53bd-4878-baec-2e65bfe3a2a1"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
