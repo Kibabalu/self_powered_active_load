@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Self powered active load")
+    (date "2023-04-04")
+    (rev "A")
+    (company "Dr. Frank Kirschbaum")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" power)
