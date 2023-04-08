@@ -4740,6 +4740,10 @@
     )
   )
 
+  (text "four Sziklai output stages" (at 208.28 46.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 10b3220f-72f2-4092-8eba-96d68da57f48)
+  )
   (text "Switch" (at 26.67 179.705 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5f10376a-85db-484a-93cb-6c29850df426)
