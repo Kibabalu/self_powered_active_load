@@ -5765,6 +5765,12 @@
     (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f09128a1-107f-4acf-ba3c-e0073bdfa4f0))
   (gr_line (start 259.334 145.64) (end 259.334 45.79)
     (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp fbaafe44-02bd-4509-968b-7f5966163519))
+  (gr_text "Dr. Frank Kirschbaum 2023" (at 246.25 144.75) (layer "B.SilkS") (tstamp a681fef8-dc69-4b28-b3f4-80e8adf454f4)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  )
+  (gr_text "Dr. Frank Kirschbaum 2023" (at 225.25 144.75) (layer "F.SilkS") (tstamp 30c369fe-4eb6-49d8-b487-b17b07d3ab0b)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
 
   (segment (start 228.092 133.81) (end 231.212166 133.81) (width 0.25) (layer "F.Cu") (net 1) (tstamp 0c84672e-ff5c-4bcf-b008-c3637af4472d))
   (segment (start 237.4275 133.7975) (end 237.49 133.735) (width 0.25) (layer "F.Cu") (net 1) (tstamp 2741b5b0-59c5-477c-88d9-4fba2f68aebd))
