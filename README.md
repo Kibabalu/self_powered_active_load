@@ -8,7 +8,12 @@ Independently of the applied voltage, the circuit composed by the transistors Q3
 
 The main function of the circuit, the load current control, is done by the remaining precision operational amplifier. Four Sziklai-like output stages functions as final control elements for the current load.
 
-For the heat to be dissipated a appropriate heat sink is needed. Here the Sink LA6 from Fischer with a length of 150mm is used.
+For the heat to be dissipated a appropriate heat sink is needed. Here the Sink LA6 from Fischer with a length of 150mm is used. The sink can be optionally equipped with a fan. This increases the maximum allowed power a lot.
+
+The specs are roughly
+- Voltage: It starts down at 2V and goes up to 60V. Technically the upper border could be extended by using other transistors with higher maximum voltages. **But it's not recommended to leave the save area of safety-low voltages**.
+- Max current: Each of the four Sziklai-like output stages with their shunt resistors can stand approx. 2.5A. Thus, overall 10A load current should be fine. For higher load currents the circuit can be scaled by adding more output stages.
+- Max power: 30W without fan / 100W with fan
 
 ![Schematics](self_powered_active_load.png)
 
