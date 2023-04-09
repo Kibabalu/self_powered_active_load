@@ -15,6 +15,8 @@ The specs are roughly
 - Max current: Each of the four Sziklai-like output stages with their shunt resistors can stand approx. 2.5A. Thus, overall 10A load current should be fine. For higher load currents the circuit can be scaled by adding more output stages.
 - Max power: 30W without fan / 100W with fan
 
+Production data, including the gerber files, can be found in the subfolder _production_. Feel free to use the source files for your own projects.
+
 ![Schematics](self_powered_active_load.png)
 
 The Circuit is mainly adopted from the source: Joel Setton; _Precision active load operates as low as 2V_, EDN, 2005. There's also a commercial version based on the original circuit available: The TekBox TBOH02 self powered load.
