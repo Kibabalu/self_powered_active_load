@@ -12,4 +12,4 @@ For the heat to be dissipated a appropriate heat sink is needed. Here the Sink L
 
 ![Schematics](self_powered_active_load.png)
 
-The Circuit is mainly adopted from the source: Joel Setton; _Precision active load operates as low as 2V_, EDN, 2005. There's also a commercial version available: The TekBox TBOH02 self powered load, e.g. from https://www.welectron.com/TekBox-TBOH02-Eigenbetriebene-aktive-Last.
+The Circuit is mainly adopted from the source: Joel Setton; _Precision active load operates as low as 2V_, EDN, 2005. There's also a commercial version based on the original circuit available: The TekBox TBOH02 self powered load, see e.g. https://www.welectron.com/TekBox-TBOH02-Eigenbetriebene-aktive-Last.
