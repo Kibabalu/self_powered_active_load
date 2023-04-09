@@ -10,7 +10,6 @@ The main function of the circuit, the load current control, is done by the remai
 
 For the heat to be dissipated a appropriate heat sink is needed. Here the Sink LA6 from Fischer with a length of 150mm is used.
 
-The Circuit is mainly adopted from the source: Joel Setton; _Precision active load operates as low as 2V_, EDN, 2005
-
 ![Schematics](self_powered_active_load.png)
 
+The Circuit is mainly adopted from the source: Joel Setton; _Precision active load operates as low as 2V_, EDN, 2005. There's also a commercial version available: The TekBox TBOH02 self powered load, e.g. from https://www.welectron.com/TekBox-TBOH02-Eigenbetriebene-aktive-Last.
