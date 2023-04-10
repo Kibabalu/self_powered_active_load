@@ -8,7 +8,7 @@ Independently of the applied voltage, the circuit composed by the transistors Q3
 
 The main function of the circuit, the load current control, is done by the remaining precision operational amplifier. Four Sziklai-like output stages functions as final control elements for the current load.
 
-For the heat to be dissipated a appropriate heat sink is needed. Here the sink LA 6 from Fischer with a length of 150mm is used. The sink can be optionally equipped with a fan. This can increases the maximum allowed power a lot.
+For the heat to be dissipated, an appropriate heat sink is needed. Here the sink LA 6 from Fischer with a length of 150mm is used. The sink can be optionally equipped with a fan. This can increases the maximum allowed power a lot.
 
 ![Schematics](la_6.png)
 
@@ -21,4 +21,4 @@ Production data, including the gerber files, can be found in the subfolder _prod
 
 ![Schematics](self_powered_active_load.png)
 
-The Circuit is mainly adopted from the source: Joel Setton; _Precision active load operates as low as 2V_, EDN, 2005. There's also a commercial version based on the original circuit available: The TekBox TBOH02 self powered load.
+The Circuit is mainly adopted from the source: Joel Setton; _Precision active load operates as low as 2V_, EDN, 2005. There's also a commercial version based on the same original circuit available: The TekBox TBOH02 self powered load.
