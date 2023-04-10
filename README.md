@@ -13,7 +13,7 @@ For the heat to be dissipated, an appropriate heat sink is needed. Here the sink
 ![Schematics](la_6.png)
 
 The specs are roughly
-- Voltage: It starts down at 2V and goes up to 60V, defined by one of the chosen transistors, specific the 2SC4117. It was chosen, because it has been available in my storage. Technically the upper border could be simply extended by using other transistors with higher maximum voltages. **But it's not recommended to leave the safe area of safety-low voltages**, in particular for amateurs. Stay always inside the field covered up by your knowledge and expierences!
+- Voltage: It starts down at 2V and goes up to 60V. Technically the upper border goes up to 100V due to the chosen transistors BDW93CFP. **But it's not recommended to leave the safe area of safety-low voltages**, in particular for amateurs. Stay always inside the field covered up by your knowledge and expierences!
 - Max current: Each of the four Sziklai-like output stages with their shunt resistors can stand approx. 2.5A. Thus, overall 10A load current should be fine. For higher load currents the circuit can be scaled by adding more output stages.
 - Max power: 30W without fan / 100W with fan
 
