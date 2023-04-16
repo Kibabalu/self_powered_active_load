@@ -14,7 +14,7 @@ For the heat to be dissipated, an appropriate heat sink is needed. Here the sink
 
 The specs are roughly
 - Voltage: It starts down at 2V and goes up to 60V. Technically the upper border goes up to 100V due to the chosen transistor BDW93CFP for the output stages. **But it's not recommended to leave the safe area of safety-low voltages**, in particular for amateurs. Stay always inside the field covered up by your knowledge and expierences!
-- Max current: Each of the four Sziklai-like output stages with their shunt resistors can stand approx. 2.5A. Thus, overall 10A load current should be fine. For higher load currents the circuit can be scaled by adding more output stages.
+- Max current: Each of the four Sziklai-like output stages with their shunt resistors can stand approx. 2.5A. Thus, overall 10A load current should be fine. For higher load currents the base circuit could be scaled by adding more output stages.
 - Max power: 30W without fan / 100W with fan
 
 Production data, including the gerber files, can be found in the subfolder _production_. Or feel free to use the source files for your own projects.

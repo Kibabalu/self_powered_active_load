@@ -7,7 +7,7 @@
   (title_block
     (title "Self Powered Active Load")
     (date "2023-03-26")
-    (rev "A")
+    (rev "A2")
     (company "Dr. Frank Kirschbaum, Hohenheimer Straße 71A, 70184 Suttgart")
     (comment 4 "Original Design from: Joel Setton; Precision active load operates as low as 2V, EDN, 2005")
   )
